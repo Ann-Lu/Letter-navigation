@@ -180,5 +180,12 @@ $(document).on('keypress', function (e) {
     }
   }
 });
+$('#searchForm').keypress(function (e) {
+  e.stopPropagation();
+}); //阻止事件冒泡
+// $('.searchForm').keypress((e) => {
+//     return false;
+// });
+// // return false;不止阻止冒泡而且阻止事件本身
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.896c70b7.js.map
+//# sourceMappingURL=main.a4a0de31.js.map

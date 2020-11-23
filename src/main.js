@@ -79,3 +79,11 @@ $(document).on('keypress', (e) => {
         }
     }
 })
+
+$('#searchForm').keypress((e) => {
+    e.stopPropagation();
+}); //阻止事件冒泡
+// $('.searchForm').keypress((e) => {
+//     return false;
+// });
+// // return false;不止阻止冒泡而且阻止事件本身
