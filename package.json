@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build":"rm -rf dist && parcel build scr/index.html --no-minify --public-url ./"
+    "build":"rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
   },
   "name": "Nav1",
   "version": "1.0.0",
